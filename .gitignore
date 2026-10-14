@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+runtime/
+vendor/
+__pycache__/
+*.pyc
+*.log
+*.zip
+.DS_Store
+config.local.json

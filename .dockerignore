@@ -1,0 +1,12 @@
+**
+!src/
+!src/*.py
+!fixtures/
+!fixtures/samples/
+!fixtures/samples/example.json
+!fixtures/notes/
+!fixtures/notes/welcome.md
+!requirements.lock
+!vendor/
+!vendor/wheels/
+!vendor/wheels/*.whl

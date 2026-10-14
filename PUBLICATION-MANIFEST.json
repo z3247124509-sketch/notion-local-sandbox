@@ -1,0 +1,135 @@
+{
+  "status": "source-only distribution; project-owned files licensed under MIT",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 189,
+      "sha256": "eb6ee544fb2c996b479bd9496db8a18dfeeaed8e492f456486ca050bebe9fe4d"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 314,
+      "sha256": "0dd48e43d3c085b8812cb342d9578766fa3efd5a01625ff89462798af4f7276a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 102,
+      "sha256": "df3054ef0bbec6dfcc14de5790756c101c452b30cb010f4d2d469704c8fc0dbc"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 621,
+      "sha256": "813937d1d01063586160debeacda9c313ff80521bc421fd77844e68f80a30a71"
+    },
+    {
+      "path": "Dockerfile.gateway",
+      "bytes": 558,
+      "sha256": "a6a1f5687a8264097f491341185e68c706de05429e0f615665090d46cd36e0c7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1075,
+      "sha256": "a14727ba5392f3f4084a48f3335929ca5e43b3713a772d1c1e8e19a9ab865cc4"
+    },
+    {
+      "path": "LICENSE-STATUS.md",
+      "bytes": 1657,
+      "sha256": "0ce8040894e545c13212d7c3d7e49231dbc2b7a9acac5aea2e7d9ae6d6f02580"
+    },
+    {
+      "path": "README.md",
+      "bytes": 15819,
+      "sha256": "f366c2eb7cf5833fc6ff9bd2a9520010659d6d08a4708bba9d45dcce4fcb5d1c"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 2972,
+      "sha256": "61a95c8100aeb09dc1b63dd9c9f59a822ee3d3b1bcf95534a469d8dce2a4800a"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 27983,
+      "sha256": "ccee7f0100253bc9d613fc1afd509577d9f8864ab4953472acafb3c1c8f7069b"
+    },
+    {
+      "path": "docs/RELEASE-CHECKLIST.md",
+      "bytes": 3018,
+      "sha256": "b640a32171be1cc0af5325e49a51b0d82fc277aabed65901973307088cbe4c13"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "bytes": 2491,
+      "sha256": "489eb01ad0edbed55c6bced0482bc32460facb648ff508cc3e5bee624ef4734c"
+    },
+    {
+      "path": "docs/dependency-license-inventory.json",
+      "bytes": 421214,
+      "sha256": "0a6732a64f27b3de4df090de5e7588f3b1b5a2ee8f31c02eecb53cfcc069bfb8"
+    },
+    {
+      "path": "fixtures/notes/welcome.md",
+      "bytes": 156,
+      "sha256": "226eeea7f036d26126e062a5d2f59a6d7fea3bbae8ec1d30b0f6e0aabef748ea"
+    },
+    {
+      "path": "fixtures/samples/example.json",
+      "bytes": 58,
+      "sha256": "de3c940daf8aa393a4025681b6805e0e95c4c5d4e9494ed3538a118d5d488e0a"
+    },
+    {
+      "path": "launch.py",
+      "bytes": 10194,
+      "sha256": "30b086805ff7eb2fa6f617509038e9aff12e7dbb002309fad78ceb090e43167d"
+    },
+    {
+      "path": "package_review.py",
+      "bytes": 2592,
+      "sha256": "bf9641cd14aa716cb799ddd82890071fdc03e769bd6d73b180c872239b2ef817"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 74888,
+      "sha256": "29613f3b4069b2a528fe40d82cbbf47e777c5c3415d74407103163e6c6819f7c"
+    },
+    {
+      "path": "skills/notion-local-sandbox/SKILL.md",
+      "bytes": 4033,
+      "sha256": "ea49b9c816ed2a38fede45bed1e0e1966d98affa9324160e4ce91c6ffd2d9b71"
+    },
+    {
+      "path": "src/auth.py",
+      "bytes": 2833,
+      "sha256": "56743083c0adc4ab2c18a75670ea3d1b9af1e45de4605b515067c0dd54d286e4"
+    },
+    {
+      "path": "src/gateway.py",
+      "bytes": 3814,
+      "sha256": "cfc583864e7c397e36c488607da32884a5648ea49e0093c626f99065256fbcc6"
+    },
+    {
+      "path": "src/origin_proxy.py",
+      "bytes": 5355,
+      "sha256": "a486c1dd7be2e946b7f0fbebeb87a1c3eb5862dbe211065f6941e4d6d433c240"
+    },
+    {
+      "path": "src/safe_files.py",
+      "bytes": 4777,
+      "sha256": "fd5af438dc941d2a7e477d12e591a81c4daa627f3829702b6b9d7d67fad74eca"
+    },
+    {
+      "path": "src/selftest.py",
+      "bytes": 1045,
+      "sha256": "173e20ffbfb94a9d6c34cae368b9384af109955adf98cea703ce92f86e6e784d"
+    },
+    {
+      "path": "src/server.py",
+      "bytes": 5405,
+      "sha256": "e6c6ffd6fdf552b2364ad2977f058ae961c92d6e021f5c29f368791b88fff57c"
+    },
+    {
+      "path": "tests/test_safety.py",
+      "bytes": 12835,
+      "sha256": "eb7e573ca0d738ecbcbc4359a2c46fb9ea313a84d9acfda3ad1a6f853aa73409"
+    }
+  ]
+}

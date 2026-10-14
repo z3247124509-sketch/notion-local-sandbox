@@ -1,0 +1,11 @@
+# Supply the independently verified official ngrok/ngrok 3.39.8 digest.
+# No unpinned vendor default is permitted.
+ARG NGROK_IMAGE
+ARG PYTHON_IMAGE=python:3.12.15-slim-bookworm@sha256:739ba32ae445e8d58f3d90feb85f83bebc8346f8dd280fa1eb5848f4ff1ed163
+FROM ${NGROK_IMAGE} AS vendor
+FROM ${PYTHON_IMAGE}
+COPY --from=vendor /nix/store/frypfg4arg8bzr2lwff5vhp3zzjqf7bs-ngrok-3.39.8/bin/ngrok /usr/local/bin/ngrok
+COPY src/gateway.py src/origin_proxy.py /opt/kit/src/
+USER 10001:10001
+WORKDIR /tmp
+ENTRYPOINT ["python", "-I", "-S", "-B", "/opt/kit/src/gateway.py"]
